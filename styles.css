@@ -1,1 +1,18 @@
 /*  your css code here. If applicable */
+table{
+	width: 100%;
+}
+
+table,td{
+	border: 2px solid black;
+	border-collapse: collapse;
+	padding: 0.5rem 1rem;
+}
+table tr td:nth-child(2),
+table tr th:nth-child(2) {
+  text-align: center;
+}
+ table tr td:nth-child(3),
+table tr th:nth-child(3) {
+	text-align:right;
+}
